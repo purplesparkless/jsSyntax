@@ -78,3 +78,28 @@ let person = "John Doe", carName = "Volvo", price = 200;
 let person = "John Doe",
 carName = "Volvo",
 price = 200;
+
+// You can also add strings, but strings will be concatenated:
+let x = "John" + " " + "Doe"; 
+let x = "5" + 2 + 3;
+
+// Variables declared inside a { } block cannot be accessed from outside the block:BLOCKSCOPE
+// Variables defined with let can not be redeclared in the same scope
+{
+  let x = 2;
+}
+// x can NOT be used here 
+
+// Variables declared with varinside a { } block can be accessed from outside the block:GLOBAL SCOPE
+// Variables defined with var can be redeclared in the same scope
+{
+  var x = 2;
+}
+// x CAN be used here 
+
+
+
+// If you add a number and a string, the result will be a string!
+
+
+
