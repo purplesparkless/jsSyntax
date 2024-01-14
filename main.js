@@ -63,3 +63,18 @@ y = 6;
 // JavaScript programmers tend to use camel case that starts with a lowercase letter:
 
 firstName, lastName, masterCard, interCity
+
+// /////////////////////////////////JS VARIABLES
+{/* <p id="demo"></p> */}
+<script>
+let carName = "Volvo";
+document.getElementById("demo").innerHTML = carName;
+</script> 
+
+// You can declare many variables in one statement.
+let person = "John Doe", carName = "Volvo", price = 200;
+
+// A declaration can span multiple lines: 
+let person = "John Doe",
+carName = "Volvo",
+price = 200;
