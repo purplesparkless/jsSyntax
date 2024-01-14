@@ -10,7 +10,7 @@
 
 // 1. Numbers are written with or without decimals:
 10.50
-1001
+1002
 // 2. Strings are text, written within double or single quotes:
 "John Doe"
 'John Doe' 
